@@ -1,0 +1,146 @@
+/* YA ESTA TODO CARGADO EN SASS ASI QUE BORRAMOS? O NO?
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(209, 245, 240);
+}
+/* MENU
+nav.navbar{
+    background-color: rgb(144, 204, 219);
+}
+div.container{
+    background-color: rgb(134, 231, 255);
+}
+/* Sector Textos
+.parrafos{
+    font-size: 17px;
+    font-family: 'Dongle', sans-serif;
+font-family: 'Luxurious Roman', cursive;
+}
+/*Footter
+.redes{
+background-color: rgb(161, 201, 228);
+max-width: 100%;
+}
+.redes2{
+    font-size: 30px;
+    color: rgb(79, 150, 168);
+    display: flex;
+    list-style: none;   
+    justify-content: space-around;
+    margin: auto;    
+    padding: auto;
+}
+.redes2:hover{
+    color: red;
+}
+/* Menu Hover
+a.navbar-brand:hover{
+    transition: 2s;
+    color: #0d55e4;
+    filter: opacity(0.9);
+    transform: scale(1.04);
+}
+a.nav-link:hover{
+    transition: 2s;
+    color: #0d55e4;
+    filter: opacity(0.9);
+    transform: scale(1.04);
+}
+/*Carousel de fotos index
+.carousel{
+    max-height: 50%;
+    max-width: 50%;
+    margin: auto;
+}
+/* Ustedes*
+div .img{
+    object-fit: contain;
+    box-shadow: #747575;
+    max-height: fit-content;
+    max-width: fit-content;
+    margin: auto;
+}
+div .img:hover{
+    transition: 2s;
+    color: #0d55e4;
+    filter: opacity(0.9);
+    transform: scale(1.04);
+    object-fit: cover;
+    box-shadow: #747575;
+    
+}
+/*aca finaliza ustedes*/
+
+/** {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(209, 245, 240);
+}
+
+nav.navbar {
+    background-color: blue;
+}
+
+div.container {
+    background-color: rgb(134, 231, 255);
+}
+
+.parrafos {
+    font-size: 17px;
+    font-family: 'Dongle', sans-serif;
+    font-family: 'Luxurious Roman', cursive;
+}
+
+.redes {
+    background-color: rgb(62, 170, 241);
+}
+
+.redes2 {
+    font-size: 35px;
+    color: rgb(79, 150, 168);
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    margin: auto;
+    padding: auto;
+        }
+
+a {
+    &.navbar-brand:hover, &.nav-link:hover {
+        transition: 2s;
+        color: #0d55e4;
+        filter: opacity(0.9);
+        transform: scale(1.04);
+    }
+}
+
+.carousel {
+    max-height: 50%;
+    max-width: 50%;
+    margin: auto;
+}
+
+div .img {
+    object-fit: contain;
+    box-shadow: #747575;
+    max-height: fit-content;
+    max-width: fit-content;
+    margin: auto;
+
+    &:hover {
+        transition: 2s;
+        color: #0d55e4;
+        filter: opacity(0.9);
+        transform: scale(1.04);
+        object-fit: cover;
+        box-shadow: #747575;
+    }
+}*/

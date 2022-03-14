@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: $colorTerciario;
+    /* MENU*/
+    nav.navbar{
+        background-color: $colorPrimario;
+    }
+    div.container{
+        background-color: $colorPrimario;
+    }
+    a.navbar-brand:hover{
+        transition: 2s;
+        color: #0d55e4;
+        filter: opacity(0.9);
+        transform: scale(1.04);
+    }
+    a.nav-link:hover{
+        transition: 2s;
+        color: #0d55e4;
+        filter: opacity(0.9);
+        transform: scale(1.04);
+    }
+    footer{
+        background-color: $colorSecundario;
+        max-width: 100%;
+        }
+        .redes2{
+            font-size: 30px;
+            color: $colorSecundario;
+            display: flex;
+            list-style: none;   
+            justify-content: space-around;
+            margin: auto;    
+            padding: auto;
+        }
+        .redes2:hover{
+            color: red;
+        }
+}

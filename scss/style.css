@@ -1,0 +1,110 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #b9f1df;
+  /* MENU*/
+}
+
+body nav.navbar {
+  background-color: #9ddaec;
+}
+
+body div.container {
+  background-color: #9ddaec;
+}
+
+body a.navbar-brand:hover {
+  -webkit-transition: 2s;
+  transition: 2s;
+  color: #0d55e4;
+  -webkit-filter: opacity(0.9);
+          filter: opacity(0.9);
+  -webkit-transform: scale(1.04);
+          transform: scale(1.04);
+}
+
+body a.nav-link:hover {
+  -webkit-transition: 2s;
+  transition: 2s;
+  color: #0d55e4;
+  -webkit-filter: opacity(0.9);
+          filter: opacity(0.9);
+  -webkit-transform: scale(1.04);
+          transform: scale(1.04);
+}
+
+body footer {
+  background-color: #a8f5db;
+  max-width: 100%;
+}
+
+body .redes2 {
+  font-size: 30px;
+  color: #a8f5db;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: auto;
+  padding: auto;
+}
+
+body .redes2:hover {
+  color: red;
+}
+
+/*Carousel de fotos index*/
+.carousel {
+  max-height: 50%;
+  max-width: 50%;
+  margin: auto;
+}
+
+/* Sector Textos*/
+.parrafos {
+  font-size: 17px;
+  font-family: "Dongle", sans-serif "Luxurious Roman,\a cursive";
+  font-family: "Dongle", sans-serif "Luxurious Roman,\a cursive";
+}
+
+div .img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  -webkit-box-shadow: #747575;
+          box-shadow: #747575;
+  max-height: -webkit-fit-content;
+  max-height: -moz-fit-content;
+  max-height: fit-content;
+  max-width: -webkit-fit-content;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  margin: auto;
+}
+
+div .img:hover {
+  -webkit-transition: 2s;
+  transition: 2s;
+  color: #0d55e4;
+  -webkit-filter: opacity(0.9);
+          filter: opacity(0.9);
+  -webkit-transform: scale(1.04);
+          transform: scale(1.04);
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-box-shadow: #747575;
+          box-shadow: #747575;
+}
+
+p {
+  font-family: "Dongle", sans-serif "Luxurious Roman,\a cursive";
+  font-size: 23px;
+  border: black;
+}
+/*# sourceMappingURL=style.css.map */

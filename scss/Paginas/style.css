@@ -1,0 +1,86 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #d1f5f0;
+}
+
+nav.navbar {
+  background-color: blue;
+}
+
+div.container {
+  background-color: #86e7ff;
+}
+
+.parrafos {
+  font-size: 17px;
+  font-family: 'Dongle', sans-serif;
+  font-family: 'Luxurious Roman', cursive;
+}
+
+.redes {
+  background-color: #3eaaf1;
+}
+
+.redes2 {
+  font-size: 35px;
+  color: #4f96a8;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: auto;
+  padding: auto;
+}
+
+a.navbar-brand:hover, a.nav-link:hover {
+  -webkit-transition: 2s;
+  transition: 2s;
+  color: #0d55e4;
+  -webkit-filter: opacity(0.9);
+          filter: opacity(0.9);
+  -webkit-transform: scale(1.04);
+          transform: scale(1.04);
+}
+
+.carousel {
+  max-height: 50%;
+  max-width: 50%;
+  margin: auto;
+}
+
+div .img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  -webkit-box-shadow: #747575;
+          box-shadow: #747575;
+  max-height: -webkit-fit-content;
+  max-height: -moz-fit-content;
+  max-height: fit-content;
+  max-width: -webkit-fit-content;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  margin: auto;
+}
+
+div .img:hover {
+  -webkit-transition: 2s;
+  transition: 2s;
+  color: #0d55e4;
+  -webkit-filter: opacity(0.9);
+          filter: opacity(0.9);
+  -webkit-transform: scale(1.04);
+          transform: scale(1.04);
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-box-shadow: #747575;
+          box-shadow: #747575;
+}
+/*# sourceMappingURL=style.css.map */
